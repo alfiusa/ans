@@ -1,5 +1,5 @@
 ---
-- hosts: all_hosts
+- hosts: ec10
   become: true
   tasks:
     - name: copy stuff
